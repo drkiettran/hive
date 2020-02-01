@@ -22,5 +22,14 @@ cd /home/student/cisc_525/cisc-525-util
 hive
 ```
 
+You may need to run schema tool to create a schema to get this to work:
+```
+schematool -dbType derby -initSchema
+```
+
 ## compare with Java MR application 
 Check out mapreduce repository and run the WordCount application against othello.txt file to see the difference in coding.
+
+
+## Reference:
+`https://cwiki.apache.org/confluence/display/Hive/GettingStarted`
