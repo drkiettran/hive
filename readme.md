@@ -24,6 +24,7 @@ hive
 
 You may need to run schema tool to create a schema to get this to work:
 ```
+cd /home/student/dev/hive
 schematool -dbType derby -initSchema
 ```
 
