@@ -11,7 +11,7 @@ hdfs dfs -chmod g+w /tmp
 
 ## For cisc-525 Spring 2020 class:
 ```
-cd /home/student/cisc_525/cisc-525-util
+cd /home/student/cisc525/cisc-525-util
 ./start-hadoop.bash
 ./prepare-hadoop-data.bash
 ./prepare-hive-data.bash
